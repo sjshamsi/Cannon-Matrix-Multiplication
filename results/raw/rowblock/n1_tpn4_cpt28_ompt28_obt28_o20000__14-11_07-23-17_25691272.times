@@ -1,0 +1,42 @@
+#Date_Time:               Fri Nov 14 07:23:26 CET 2025
+#Hostname:                lrdn4533.leonardo.local
+#
+#SLURM_JOB_NAME:          PMatMult_n1_tpn4_cpt28_ompt28_obt28_o20000
+#SLURM_JOB_ID:            25691272
+#SLURM_JOB_NUM_NODES:     1
+#SLURM_TASKS_PER_NODE:    4
+#SLURM_CPUS_PER_TASK:     28
+#SLURM_NTASKS:            4
+#SLURM_JOB_CPUS_PER_NODE: 112
+#SLURM_NODELIST:          lrdn4533
+#ENV_OMP_NUM_Threads:     28
+#ENV_OB_NUM_Threads:      28
+#
+#Requested_Nodes:         1
+#Requested_TPN:           4
+#Requested_CPT:           28
+#Exported_OMP_Threads:    28
+#Exported_OB_Threads:     28
+#Matrix_Order:            20000
+
+rank, subject, tot_time[ms], ncalls, avg_time[ms]
+0, calc, 2634.69, 4, 658.673
+1, calc, 2606.21, 4, 651.553
+2, calc, 2657.12, 4, 664.28
+3, calc, 2651.84, 4, 662.96
+0, comm, 121.113, 4, 30.2782
+1, comm, 118.029, 4, 29.5072
+2, comm, 118.493, 4, 29.6231
+3, comm, 117.022, 4, 29.2556
+0, constructor, 563.871, 1, 563.871
+1, constructor, 567.86, 1, 567.86
+2, constructor, 564.972, 1, 564.972
+3, constructor, 592.048, 1, 592.048
+0, init, 73.7611, 2, 36.8805
+1, init, 74.5462, 2, 37.2731
+2, init, 77.036, 2, 38.518
+3, init, 79.0041, 2, 39.502
+0, total, 6896.25, 1, 6896.25
+1, total, 6869.77, 1, 6869.77
+2, total, 6939.94, 1, 6939.94
+3, total, 6932.5, 1, 6932.5

@@ -1,0 +1,21 @@
+#Date_Time:               Fri Nov 14 03:55:11 CET 2025
+#Hostname:                lrdn4152.leonardo.local
+#
+#SLURM_JOB_NAME:          PMatMult_n16_tpn112_cpt1_ompt1_obt1_o20000
+#SLURM_JOB_ID:            25689529
+#SLURM_JOB_NUM_NODES:     16
+#SLURM_TASKS_PER_NODE:    112(x16)
+#SLURM_CPUS_PER_TASK:     1
+#SLURM_NTASKS:            1792
+#SLURM_JOB_CPUS_PER_NODE: 112(x16)
+#SLURM_NODELIST:          lrdn[4152,4156-4160,4163,4166,4168-4169,4173,4175-4176,4178-4179,4182]
+#ENV_OMP_NUM_Threads:     1
+#ENV_OB_NUM_Threads:      1
+#
+#Requested_Nodes:         16
+#Requested_TPN:           112
+#Requested_CPT:           1
+#Exported_OMP_Threads:    1
+#Exported_OB_Threads:     1
+#Matrix_Order:            20000
+

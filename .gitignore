@@ -1,0 +1,10 @@
+# build trees
+build/
+*.x
+# job output (summaries live in results/)
+*.out
+*.err
+*.slurm
+nodeinfo_*.txt
+# python
+__pycache__/

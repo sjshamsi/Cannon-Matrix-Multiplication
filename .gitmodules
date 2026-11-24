@@ -1,0 +1,6 @@
+[submodule "external/myMPITimer"]
+	path = external/myMPITimer
+	url = https://github.com/sjshamsi/myMPITimer.git
+[submodule "external/myMatrixPrint"]
+	path = external/myMatrixPrint
+	url = https://github.com/sjshamsi/myMatrixPrint.git

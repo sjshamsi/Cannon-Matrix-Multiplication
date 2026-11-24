@@ -1,0 +1,62 @@
+#Date_Time:               Fri Nov 14 07:23:23 CET 2025
+#Hostname:                lrdn3982.leonardo.local
+#
+#SLURM_JOB_NAME:          PMatMult_n2_tpn4_cpt28_ompt28_obt28_o20000
+#SLURM_JOB_ID:            25691270
+#SLURM_JOB_NUM_NODES:     2
+#SLURM_TASKS_PER_NODE:    4(x2)
+#SLURM_CPUS_PER_TASK:     28
+#SLURM_NTASKS:            8
+#SLURM_JOB_CPUS_PER_NODE: 112(x2)
+#SLURM_NODELIST:          lrdn[3982,3988]
+#ENV_OMP_NUM_Threads:     28
+#ENV_OB_NUM_Threads:      28
+#
+#Requested_Nodes:         2
+#Requested_TPN:           4
+#Requested_CPT:           28
+#Exported_OMP_Threads:    28
+#Exported_OB_Threads:     28
+#Matrix_Order:            20000
+
+rank, subject, tot_time[ms], ncalls, avg_time[ms]
+0, calc, 1528.44, 8, 191.055
+1, calc, 1515.57, 8, 189.446
+2, calc, 1486.33, 8, 185.791
+3, calc, 1484.3, 8, 185.537
+4, calc, 1521.47, 8, 190.183
+5, calc, 1517.52, 8, 189.69
+6, calc, 1510.37, 8, 188.796
+7, calc, 1512.38, 8, 189.048
+0, comm, 77.2856, 8, 9.66071
+1, comm, 70.5736, 8, 8.8217
+2, comm, 72.1262, 8, 9.01577
+3, comm, 74.6913, 8, 9.33641
+4, comm, 77.3239, 8, 9.66548
+5, comm, 75.1929, 8, 9.39911
+6, comm, 72.571, 8, 9.07138
+7, comm, 71.4005, 8, 8.92506
+0, constructor, 282.156, 1, 282.156
+1, constructor, 289.928, 1, 289.928
+2, constructor, 285.057, 1, 285.057
+3, constructor, 291.647, 1, 291.647
+4, constructor, 284.658, 1, 284.658
+5, constructor, 291.282, 1, 291.282
+6, constructor, 283.392, 1, 283.392
+7, constructor, 286.062, 1, 286.062
+0, init, 34.4193, 2, 17.2096
+1, init, 34.0431, 2, 17.0215
+2, init, 38.1112, 2, 19.0556
+3, init, 34.3648, 2, 17.1824
+4, init, 38.9476, 2, 19.4738
+5, init, 35.4087, 2, 17.7044
+6, init, 37.9423, 2, 18.9712
+7, init, 33.5894, 2, 16.7947
+0, total, 5130.49, 1, 5130.49
+1, total, 5129.23, 1, 5129.23
+2, total, 5133.46, 1, 5133.46
+3, total, 5109.81, 1, 5109.81
+4, total, 5110.48, 1, 5110.48
+5, total, 5107.77, 1, 5107.77
+6, total, 5127.13, 1, 5127.13
+7, total, 5104.84, 1, 5104.84

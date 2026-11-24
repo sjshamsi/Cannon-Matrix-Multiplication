@@ -1,0 +1,214 @@
+#Date_Time:               Fri Nov 14 00:36:45 CET 2025
+#Hostname:                lrdn4548.leonardo.local
+#
+#SLURM_JOB_NAME:          CanonMult_n10_tpn8_cpt14_ompt14_obt14_o200000
+#SLURM_JOB_ID:            25687094
+#SLURM_JOB_NUM_NODES:     10
+#SLURM_TASKS_PER_NODE:    8(x10)
+#SLURM_CPUS_PER_TASK:     14
+#SLURM_NTASKS:            80
+#SLURM_JOB_CPUS_PER_NODE: 112(x10)
+#SLURM_NODELIST:          lrdn[4548-4550,4552-4553,4555-4556,4558-4559,4562]
+#ENV_OMP_NUM_Threads:     14
+#ENV_OB_NUM_Threads:      14
+#
+#Requested_Nodes:         10
+#Requested_TPN:           8
+#Requested_CPT:           14
+#Exported_OMP_Threads:    14
+#Exported_OB_Threads:     14
+#Matrix_Order:            200000
+
+rank, subject, tot_time[ms], ncalls, avg_time[ms]
+0, mmultfn_body, 380751, 1, 380751
+1, mmultfn_body, 367111, 1, 367111
+2, mmultfn_body, 364092, 1, 364092
+3, mmultfn_body, 365642, 1, 365642
+4, mmultfn_body, 369991, 1, 369991
+5, mmultfn_body, 370356, 1, 370356
+6, mmultfn_body, 371232, 1, 371232
+7, mmultfn_body, 370955, 1, 370955
+8, mmultfn_body, 373815, 1, 373815
+9, mmultfn_body, 364373, 1, 364373
+10, mmultfn_body, 361030, 1, 361030
+11, mmultfn_body, 364595, 1, 364595
+12, mmultfn_body, 372245, 1, 372245
+13, mmultfn_body, 371179, 1, 371179
+14, mmultfn_body, 371633, 1, 371633
+15, mmultfn_body, 372226, 1, 372226
+16, mmultfn_body, 376341, 1, 376341
+17, mmultfn_body, 365345, 1, 365345
+18, mmultfn_body, 361883, 1, 361883
+19, mmultfn_body, 365407, 1, 365407
+20, mmultfn_body, 373508, 1, 373508
+21, mmultfn_body, 372533, 1, 372533
+22, mmultfn_body, 372631, 1, 372631
+23, mmultfn_body, 372812, 1, 372812
+24, mmultfn_body, 376853, 1, 376853
+25, mmultfn_body, 366580, 1, 366580
+26, mmultfn_body, 363472, 1, 363472
+27, mmultfn_body, 367055, 1, 367055
+28, mmultfn_body, 373234, 1, 373234
+29, mmultfn_body, 372417, 1, 372417
+30, mmultfn_body, 372699, 1, 372699
+31, mmultfn_body, 372796, 1, 372796
+32, mmultfn_body, 375041, 1, 375041
+33, mmultfn_body, 366979, 1, 366979
+34, mmultfn_body, 364619, 1, 364619
+35, mmultfn_body, 366884, 1, 366884
+36, mmultfn_body, 371817, 1, 371817
+37, mmultfn_body, 372179, 1, 372179
+38, mmultfn_body, 372065, 1, 372065
+39, mmultfn_body, 372324, 1, 372324
+40, mmultfn_body, 372911, 1, 372911
+41, mmultfn_body, 365235, 1, 365235
+42, mmultfn_body, 362862, 1, 362862
+43, mmultfn_body, 366763, 1, 366763
+44, mmultfn_body, 371449, 1, 371449
+45, mmultfn_body, 370177, 1, 370177
+46, mmultfn_body, 370739, 1, 370739
+47, mmultfn_body, 370845, 1, 370845
+48, mmultfn_body, 373816, 1, 373816
+49, mmultfn_body, 363171, 1, 363171
+50, mmultfn_body, 360292, 1, 360292
+51, mmultfn_body, 364137, 1, 364137
+52, mmultfn_body, 370615, 1, 370615
+53, mmultfn_body, 369184, 1, 369184
+54, mmultfn_body, 369234, 1, 369234
+55, mmultfn_body, 369786, 1, 369786
+56, mmultfn_body, 374185, 1, 374185
+57, mmultfn_body, 364416, 1, 364416
+58, mmultfn_body, 361640, 1, 361640
+59, mmultfn_body, 365383, 1, 365383
+60, mmultfn_body, 371150, 1, 371150
+61, mmultfn_body, 370380, 1, 370380
+62, mmultfn_body, 370647, 1, 370647
+63, mmultfn_body, 370534, 1, 370534
+0, randfn, 409.256, 2, 204.628
+1, randfn, 403.441, 2, 201.721
+2, randfn, 407.101, 2, 203.551
+3, randfn, 403.358, 2, 201.679
+4, randfn, 412.456, 2, 206.228
+5, randfn, 402.557, 2, 201.278
+6, randfn, 413.796, 2, 206.898
+7, randfn, 411.309, 2, 205.654
+8, randfn, 408.211, 2, 204.105
+9, randfn, 416.894, 2, 208.447
+10, randfn, 417.024, 2, 208.512
+11, randfn, 417.392, 2, 208.696
+12, randfn, 416.31, 2, 208.155
+13, randfn, 416.659, 2, 208.33
+14, randfn, 411.194, 2, 205.597
+15, randfn, 418.345, 2, 209.173
+16, randfn, 420.089, 2, 210.045
+17, randfn, 414.39, 2, 207.195
+18, randfn, 415.209, 2, 207.605
+19, randfn, 417.462, 2, 208.731
+20, randfn, 412.785, 2, 206.392
+21, randfn, 402.407, 2, 201.203
+22, randfn, 414.214, 2, 207.107
+23, randfn, 414.106, 2, 207.053
+24, randfn, 415.255, 2, 207.628
+25, randfn, 413.509, 2, 206.754
+26, randfn, 411.178, 2, 205.589
+27, randfn, 399.679, 2, 199.839
+28, randfn, 412.366, 2, 206.183
+29, randfn, 411.912, 2, 205.956
+30, randfn, 400.129, 2, 200.064
+31, randfn, 409.736, 2, 204.868
+32, randfn, 408.216, 2, 204.108
+33, randfn, 405.804, 2, 202.902
+34, randfn, 408.339, 2, 204.169
+35, randfn, 403.352, 2, 201.676
+36, randfn, 410.814, 2, 205.407
+37, randfn, 408.243, 2, 204.121
+38, randfn, 408.638, 2, 204.319
+39, randfn, 393.227, 2, 196.613
+40, randfn, 397.967, 2, 198.983
+41, randfn, 404.056, 2, 202.028
+42, randfn, 410.965, 2, 205.483
+43, randfn, 410.086, 2, 205.043
+44, randfn, 412.258, 2, 206.129
+45, randfn, 415.074, 2, 207.537
+46, randfn, 414.701, 2, 207.351
+47, randfn, 407.812, 2, 203.906
+48, randfn, 398.095, 2, 199.047
+49, randfn, 390.015, 2, 195.008
+50, randfn, 398.42, 2, 199.21
+51, randfn, 368.487, 2, 184.244
+52, randfn, 401.387, 2, 200.694
+53, randfn, 401.85, 2, 200.925
+54, randfn, 397.007, 2, 198.504
+55, randfn, 391.6, 2, 195.8
+56, randfn, 418.017, 2, 209.009
+57, randfn, 413.402, 2, 206.701
+58, randfn, 413.847, 2, 206.923
+59, randfn, 414.217, 2, 207.108
+60, randfn, 409.949, 2, 204.975
+61, randfn, 408.568, 2, 204.284
+62, randfn, 410.759, 2, 205.38
+63, randfn, 407.853, 2, 203.927
+0, tot_mmultfn, 389592, 1, 389592
+1, tot_mmultfn, 386117, 1, 386117
+2, tot_mmultfn, 383928, 1, 383928
+3, tot_mmultfn, 386034, 1, 386034
+4, tot_mmultfn, 391209, 1, 391209
+5, tot_mmultfn, 390879, 1, 390879
+6, tot_mmultfn, 390754, 1, 390754
+7, tot_mmultfn, 391016, 1, 391016
+8, tot_mmultfn, 388940, 1, 388940
+9, tot_mmultfn, 384450, 1, 384450
+10, tot_mmultfn, 381598, 1, 381598
+11, tot_mmultfn, 385412, 1, 385412
+12, tot_mmultfn, 392402, 1, 392402
+13, tot_mmultfn, 391860, 1, 391860
+14, tot_mmultfn, 392038, 1, 392038
+15, tot_mmultfn, 392430, 1, 392430
+16, tot_mmultfn, 391095, 1, 391095
+17, tot_mmultfn, 385759, 1, 385759
+18, tot_mmultfn, 382593, 1, 382593
+19, tot_mmultfn, 385856, 1, 385856
+20, tot_mmultfn, 393368, 1, 393368
+21, tot_mmultfn, 393089, 1, 393089
+22, tot_mmultfn, 393166, 1, 393166
+23, tot_mmultfn, 393391, 1, 393391
+24, tot_mmultfn, 391825, 1, 391825
+25, tot_mmultfn, 387025, 1, 387025
+26, tot_mmultfn, 384050, 1, 384050
+27, tot_mmultfn, 387831, 1, 387831
+28, tot_mmultfn, 393284, 1, 393284
+29, tot_mmultfn, 393106, 1, 393106
+30, tot_mmultfn, 393191, 1, 393191
+31, tot_mmultfn, 393304, 1, 393304
+32, tot_mmultfn, 390710, 1, 390710
+33, tot_mmultfn, 387523, 1, 387523
+34, tot_mmultfn, 385383, 1, 385383
+35, tot_mmultfn, 387759, 1, 387759
+36, tot_mmultfn, 393138, 1, 393138
+37, tot_mmultfn, 392729, 1, 392729
+38, tot_mmultfn, 392865, 1, 392865
+39, tot_mmultfn, 393049, 1, 393049
+40, tot_mmultfn, 388372, 1, 388372
+41, tot_mmultfn, 386077, 1, 386077
+42, tot_mmultfn, 383529, 1, 383529
+43, tot_mmultfn, 387257, 1, 387257
+44, tot_mmultfn, 391772, 1, 391772
+45, tot_mmultfn, 390875, 1, 390875
+46, tot_mmultfn, 391273, 1, 391273
+47, tot_mmultfn, 391656, 1, 391656
+48, tot_mmultfn, 388693, 1, 388693
+49, tot_mmultfn, 384028, 1, 384028
+50, tot_mmultfn, 380992, 1, 380992
+51, tot_mmultfn, 384777, 1, 384777
+52, tot_mmultfn, 390436, 1, 390436
+53, tot_mmultfn, 389994, 1, 389994
+54, tot_mmultfn, 390043, 1, 390043
+55, tot_mmultfn, 390295, 1, 390295
+56, tot_mmultfn, 389249, 1, 389249
+57, tot_mmultfn, 385102, 1, 385102
+58, tot_mmultfn, 382218, 1, 382218
+59, tot_mmultfn, 386078, 1, 386078
+60, tot_mmultfn, 391271, 1, 391271
+61, tot_mmultfn, 390929, 1, 390929
+62, tot_mmultfn, 390893, 1, 390893
+63, tot_mmultfn, 391099, 1, 391099
